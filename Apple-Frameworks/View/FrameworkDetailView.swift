@@ -18,8 +18,6 @@ struct FrameworkDetailView: View {
         VStack {
             
             Spacer()
-            CloseButtonPanelView(isClosed: $isShowingDetailView)
-            Spacer()
             
             FrameworkTitleView(framework: framework)
             
